@@ -1,0 +1,30 @@
+{
+  "name": "mfd/cdn-utils",
+  "type": "typo3-cms-extension",
+  "description": "CDN/reverse proxy debugging helpers for TYPO3",
+  "license": [
+    "GPL-2.0-or-later"
+  ],
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "Christian Spoo",
+      "role": "Developer",
+      "email": "christian.spoo@marketing-factory.de"
+    }
+  ],
+  "require": {
+    "typo3/cms-backend": "^13.4",
+    "typo3/cms-core": "^13.4"
+  },
+  "extra": {
+    "typo3/cms": {
+      "extension-key": "cdn_utils"
+    }
+  },
+  "autoload": {
+    "psr-4": {
+      "Mfd\\CdnUtils\\": "Classes/"
+    }
+  }
+}
