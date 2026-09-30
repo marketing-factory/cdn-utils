@@ -5,6 +5,7 @@
   "license": [
     "GPL-2.0-or-later"
   ],
+  "version": "0.2.0",
   "authors": [
     {
       "name": "Christian Spoo",
@@ -12,6 +13,11 @@
       "email": "christian.spoo@marketing-factory.de"
     }
   ],
+  "support": {
+    "issues": "https://github.com/marketing-factory/cdn-utils/issues",
+    "source": "https://github.com/marketing-factory/cdn-utils",
+    "security": "https://github.com/marketing-factory/cdn-utils/blob/main/SECURITY.md"
+  },
   "require": {
     "typo3/cms-backend": "^13.4 || ^14.0",
     "typo3/cms-core": "^13.4 || ^14.0"
